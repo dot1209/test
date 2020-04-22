@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+
+}
+
+input[type="submit"] {
+    font-family: 'cwTeXYen', sans-serif;
+    font-size: large;
+    padding: 5px;
+    background:#bbb;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+        
+input[type="number"] {
+    font-family: 'cwTeXYen', sans-serif;
+    width: 40px;
+    padding: 5px;
+    border: 2px black solid;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.number {
+    padding: 5px;
+    margin-left: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.text {
+    font-family: 'cwTeXYen', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.q {
+    position: relative;
+}
+
+.t {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.block {
+    margin: 0px 50px;
+}

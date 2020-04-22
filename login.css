@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #fff url(img/bg2.jpg) center center fixed no-repeat;
+    background-size: cover;
+}
+
+.mid {
+    position: absolute;
+    top: 30%;
+    left: 44%
+}
+
+.text {
+    background-color: #ddd;
+    border: #fff 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'cwTeXYen', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
